@@ -64,7 +64,8 @@ do {
 */
 
 // functions
-
+/*
+// function syntax 1 : 
 function average(a, b) {
 
     return (a + b) / 2
@@ -80,3 +81,10 @@ a = Number.parseInt(a)
 let b = prompt("Enter another number")
 b = Number.parseInt(b)
 console.log(average(a, b))
+
+// function syntax 2 : 
+const sum = (a, b) => {
+    return a + b
+}
+console.log(sum(5, 6))
+*/
