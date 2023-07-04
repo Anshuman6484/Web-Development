@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin collapse</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box1 {
+            background-color: red;
+            margin: 10px;
+            height: 60px;
+        }
+
+        .box2 {
+            background-color: aqua;
+            margin: 20px;
+            height: 60px;
+            padding: 5px;
+            border: 2px solid black;
+
+            /* box-sizing: border-box;         It is used to fit a box inside another box */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, accusantium sed suscipit neque mollitia
+        at, aliquam nulla, earum pariatur nam possimus! Beatae non illo delectus assumenda officiis, facere earum nemo?
+        Nam eius ipsa iusto dolore accusamus illum maiores expedita quisquam!
+    </div>
+    <div class="box2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus similique ducimus sit fugit, blanditiis omnis
+        eius vero sunt animi cupiditate quibusdam, sequi eveniet, consectetur ullam voluptatibus eum reprehenderit
+        exercitationem maiores dolor dicta magni odit nemo ipsa esse! Sint, et fugit.
+    </div>
+</body>
+
+</html>

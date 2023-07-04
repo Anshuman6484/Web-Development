@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h3>This is HTML Forms</h3>
+    <form action="backend.php">
+        <label for="name">Name :</label>
+        <div><input type="text" name="myName" id="name" placeholder="Enter your name"></div>
+        <br>
+        <div>Roll No. : <input type="number" name="myRoll"></div>
+        <br>
+        <div>Email Id : <input type="email" name="myEmail"></div>
+        <br>
+        <div>Gender : Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender">
+        </div>
+        <br>
+        <label for="eligibility">Are you eligilbe? :</label>
+        <div><input type="checkbox" name="myEligibility" id="eligibility"></div>
+        <br>
+        <label for="car">Car :</label>
+        <div><select name="myCar" id="car">
+                <option value="bmw">BMW X1</option>
+                <option value="audi" selected>
+                    </selected>Audi</option>
+                <option value="lam">Lamborghini</option>
+            </select></div>
+        <br>
+        <div><input type="reset" value="Reset"></div>
+        <br>
+        <div><input type="submit" value="Submit"></div>
+        <br>
+    </form>
+</body>
+
+</html>

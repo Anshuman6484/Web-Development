@@ -1,0 +1,9 @@
+#first{
+    background-color: aqua;                           
+}
+/* '#' is use to refer id */
+.blue{
+    background-color: blue;
+    color: white;
+}
+/* '.' is used to refer class */

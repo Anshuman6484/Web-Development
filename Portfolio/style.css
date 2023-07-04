@@ -1,0 +1,85 @@
+/* resets */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    font-family: 'Poppins',sans-serif;
+    color: white;
+}
+
+p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+}
+
+/* utility-classes */
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 60);
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+.left{
+    font-size: 1.5rem;
+}
+
+.firstsection > div{
+    width: 30%;
+}
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+}
+
+.leftsection{
+    font-size: 3rem;
+    margin: 30px 0;
+}
+
+.rightsection img{
+    width: 80%;
+    margin: 50px 0;
+}
+
+.rightsection{
+    margin-block: 20px;
+}
+
+.blue{
+    color: rgb(0, 240, 255);
+}

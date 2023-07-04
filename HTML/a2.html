@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links and images</title>
+</head>
+<body>
+    
+    <a href="https://google.com" target="_blank">Go to google<br></a>
+    <a href="https://facebook.com" target="_blank">Go to facebook<br></a>
+    <a href="https://twitter.com" target="_blank">Go to twitter<br></a>
+    <a href="https://youtube.com" target="_blank">Go to youtube<br></a>
+    <a href="/a1.html" target="_blank">Go to my website<br></a>
+    <!-- target="_blank" is written to open link in new webpage -->
+    <!-- To write same things in multiple lines press alt and click on postions where you want to write same things -->
+
+    <!-- Image is not present hence alt text is shown -->
+    <img src="https://th.bing.com/th/id/OIP.UiFcJc6Pm_yu239IRR6LTwHaEo?w=277&h=180&c=7&r=0&o=5&dpr=2&pid=1.7" alt="Error loading image">
+
+    <!-- Subscript and Superscript -->
+    <p>Formula of water : H<sub>2</sub>O</p>
+    <p>Equation of parabola : y<sup>2</sup>=4ax</p>
+
+    <!-- Pre tag is used to display the contents as it is written -->
+    <pre>
+        #include <bits/stdc++.h>
+        using namespace std;
+
+        int main()
+        {
+            string str = "geeksforgeeks";
+            int count[26] = {0};
+            for(int i=0 ; str.length() ; i++)
+            count[str[i]-'a']++;
+            for(int i=0 ; 26 ; i++)
+                if(count[i]!=0)
+                    coutchar(i+'a')'\t'count[i]'\n';
+            return 0;
+        }
+    </pre>
+
+</body>
+</html>
