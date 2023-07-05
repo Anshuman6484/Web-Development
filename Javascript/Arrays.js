@@ -63,7 +63,7 @@ console.log(num.slice(2))                   //prints from index 2 to end
 console.log(num.slice(2, 4))                //prints from index 2 to index 3
 // slice doesn't modify original array
 */
-let num = [1, 2, 3, 4, 5]
+//let num = [1, 2, 3, 4, 5]
 /*
 //for Each loop
 num.forEach((key) => {
@@ -71,7 +71,7 @@ num.forEach((key) => {
 })
 */
 //Array from
-
+/*
 let name1 = "Amit"
 let arr = Array.from(name1)                  //converts string(anything) to array
 console.log(arr)
@@ -85,4 +85,26 @@ for (i of num) {
 for (i in num) {
     console.log(i)                          //prints index of array
     console.log(num[i])                     //prints array elements
-}
+}*/
+
+let arr = [63, 73, 82, 35, 12]
+
+//Map method
+//syntax of map -> arr.map(value,index,array), except value all are optional
+let a = arr.map((value) => {                //it creates a new array
+    console.log(value)
+    return value * 10
+})
+console.log(a)
+
+//Filter method
+let b = arr.filter((value) => {             //creates new array
+    return value > 50
+})
+console.log(b)
+
+//Reduce method
+let c = arr.reduce((h1, h2) => {            //returns a value,here prints sum of array elements
+    return h1 + h2
+})
+console.log(c)
