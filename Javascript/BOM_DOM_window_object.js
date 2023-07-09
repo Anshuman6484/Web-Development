@@ -9,19 +9,10 @@
 
 // location.href = "https://www.youtube.com"   // it will redirect to twitter.com
 
-let c = prompt("Enter background color : yellow, red, aqua, aquamarine")
-if (c == "yellow") {
-    document.body.style.background = "yellow"
-}
-else if (c=="red"){
-    document.body.style.background = "red"
+/*
+let color = prompt("Enter background color")
+document.body.style.background = color
+*/
 
-}
-else if (c=="aqua"){
-    document.body.style.background = "aqua"
-
-}
-else if (c=="aquamarine"){
-    document.body.style.background = "aquamarine"
-
-}
+let site = prompt("Which website do you want to go?")
+location.href = `https://${site}.com`
