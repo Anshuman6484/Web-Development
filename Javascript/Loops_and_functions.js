@@ -1,5 +1,5 @@
 // for loop
-/*
+
 let sum = 0;
 
 // header file to use prompt function
@@ -12,7 +12,7 @@ for (let i = 1; i <= n; i++)
     sum += i
 
 console.log(sum)
-*/
+
 
 // for-in loop
 /*
