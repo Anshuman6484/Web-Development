@@ -3,15 +3,13 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import TextForm from "./components/Textform";
+import TextForm from "./components/TextForm";
 import About from "./components/About";
 import Alert from "./components/Alert";
 import {
   createBrowserRouter as Router,
-  RouterProvider,
   Route,
   Routes,
-  Link,
   BrowserRouter,
 } from "react-router-dom";
 
@@ -60,7 +58,11 @@ function App() {
                 />
               }
             />
-            <Route exact path="/about" element={<About />} />
+            <Route
+              exact
+              path="/about"
+              element={<About showAlert={showAlert} mode={mode} />}
+            />
           </Routes>
         </div>
       </BrowserRouter>
